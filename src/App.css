@@ -1,0 +1,57 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+/* ... */
+
+
+/* General */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+/* ... */
+
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+/* ... */
+
+
+/* NavBar */
+.main {
+  display: flex;
+}
+
+.title {
+  margin-top: .55em;
+  position: fixed;
+  z-index: 3;
+}
+/* .. */
+
+/* Card */
+.card {
+  margin: 2em auto;
+}
+/* ... */
+
+
+/* Rating */
+.rating {
+  margin: 0 auto;
+}
+/* .. */
